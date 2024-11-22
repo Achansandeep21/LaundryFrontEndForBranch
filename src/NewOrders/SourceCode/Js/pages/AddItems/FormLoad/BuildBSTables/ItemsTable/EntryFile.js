@@ -16,12 +16,7 @@ const StartFunc = () => {
 };
 
 const jFdate = () => {
-    // var sevenDaysAgo = new Date();
-    // sevenDaysAgo.setDate(sevenDaysAgo.getDate() + 7);
-
-    // var formattedSevenDaysAgo = sevenDaysAgo.getFullYear() + '-' + ((sevenDaysAgo.getMonth() + 1) < 10 ? '0' : '') + (sevenDaysAgo.getMonth() + 1) + '-' + (sevenDaysAgo.getDate() < 10 ? '0' : '') + sevenDaysAgo.getDate();
-
-    // document.getElementById('TableFooterdateInputId').value = formattedSevenDaysAgo;
+  
     var today = new Date(); 
     var dd = String(today.getDate()).padStart(2, '0'); 
     var mm = String(today.getMonth() + 1).padStart(2, '0'); 
