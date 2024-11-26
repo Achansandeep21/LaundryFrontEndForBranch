@@ -25,7 +25,7 @@
         ]
     },
     {
-        "name": "QrCodes",
+        "name": "Report",
         "icon": "bi bi-qr-code",
         "url": "../../FromFactoryQrCodes/HtmlFiles/"
     }
